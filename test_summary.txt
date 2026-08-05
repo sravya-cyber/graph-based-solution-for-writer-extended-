@@ -1,0 +1,15 @@
+==================================================
+CVL DATASET WRITER IDENTIFICATION BENCHMARK
+==================================================
+Model Architecture        : WriterHybridGAT (GATv2 + Classical Features)
+Training Accelerator      : CUDA
+Training Split            : Pages 1, 2, 3 (90/10 Internal Val Split)
+Test Split                : Pages 4 & 6 (Strict Unseen Holdout)
+--------------------------------------------------
+Total Test Word Crops     : 31322
+Total Test Pages Evaluated: 617
+Correctly Predicted Pages : 580
+Misclassified Pages       : 37
+--------------------------------------------------
+FINAL PAGE-LEVEL TEST ACCURACY: 94.00%
+==================================================
